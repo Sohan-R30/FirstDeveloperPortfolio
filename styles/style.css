@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif
+}
+/*    Header Section  Start */
+header{
+    background: #fff8f3;
+    background-image: url('../img/developer.png');
+    background-repeat: no-repeat;
+    background-size: contain 0;
+    background-position: center left 50px;
+}
+header nav {
+    display: flex;
+    padding: 50px 200px;
+    justify-content: space-between;
+    
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+li a{
+    color: #000;
+    text-decoration: none;
+}
+li:hover{
+    font-size: 18px;
+    transition: 0.3s;
+}
+.mary{
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+}
+.mary span{
+    color: #fd6e0a;
+}
+.btn-primary{
+    color: #fff;
+    background-color:#fd6e0a;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+
+}
+.btn-secondary{
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    border-radius: 5px;
+    padding: 11px 20px;
+    background: transparent;
+    
+}
+.btn{
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #f18c45;
+    transition: 0.5s;
+}
+
+.header-content{
+    display: flex;
+    justify-content:space-between;
+    background-image:url('../img/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain 0;
+    background-position: bottom right;
+}
+.header-content img{
+    padding-right: 50px;
+}
+.header-text{
+    text-align: justify;
+    padding-left: 200px;
+    width: 700px;
+    padding-top: 180px;
+}
+.header-text h3, .header-text h1, .header-text p{
+    padding-bottom: 20px;
+}
+.header-text h3{
+    font-size: 25px;
+}
+.header-text h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.header-text p{
+    line-height: 25px;
+}
+.btn-secondary{
+    margin-left: 20px;
+}
+
+/*   Header Section End */
