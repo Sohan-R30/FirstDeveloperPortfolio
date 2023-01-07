@@ -104,3 +104,36 @@ li:hover{
 }
 
 /*   Header Section End */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* About Section Start */
+.about-section{
+    margin-top: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    margin-bottom: 30px;
+}
+.section-descriptio{
+    background: #757575;
+    font-size: 18px;
+}
+.about-info th{
+    font-weight: lighter;
+    padding-top: 30px;
+}
+.about-info td{
+    font-weight: bolder;
+}
+.about-info th, .about-info td{
+    padding-left: 50px;    
+}
+/* About Section style End */
