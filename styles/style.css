@@ -120,6 +120,7 @@ main{
     text-align: center;
 }
 .section-title{
+    text-align: center;
     margin-bottom: 30px;
 }
 .section-descriptio{
@@ -137,3 +138,34 @@ main{
     padding-left: 50px;    
 }
 /* About Section style End */
+
+
+/* What i do section start */
+.what-i-do{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #fff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+.what-i-do-description{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* what i do section end */
