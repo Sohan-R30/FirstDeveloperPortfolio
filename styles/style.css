@@ -194,5 +194,41 @@ main {
 .button {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 150px;
 }
+
+/* Footer Section Styles */
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 150px 380px;
+    background: #deac8933;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.footer-section .section-title{
+    text-align: left;
+}
+.footer-section p{
+    width: 500px;
+    color: #757575;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.message-container input, .message-container textarea{
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+}
+.message-container input[type="text"], .message-container input[type="email"]{
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.button .btn{
+    position: left;
+}
+/* Footer Section Style Ends */
