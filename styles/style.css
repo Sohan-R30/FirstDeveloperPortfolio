@@ -1,171 +1,198 @@
-@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Open+Sans&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif
+@import url("https://fonts.googleapis.com/css2?family=Lustria&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 /*    Header Section  Start */
-header{
-    background: #fff8f3;
-    background-image: url('../img/developer.png');
-    background-repeat: no-repeat;
-    background-size: contain 0;
-    background-position: center left 50px;
+header {
+  background: #fff8f3;
+  background-image: url("../img/developer.png");
+  background-repeat: no-repeat;
+  background-size: contain 0;
+  background-position: center left 50px;
 }
 header nav {
-    display: flex;
-    padding: 50px 200px;
-    justify-content: space-between;
-    
+  display: flex;
+  padding: 50px 200px;
+  justify-content: space-between;
 }
-nav ul{
-    display: flex;
-    gap: 60px;
-    align-items: center;
+nav ul {
+  display: flex;
+  gap: 60px;
+  align-items: center;
 }
-ul li{
-    text-decoration: none;
-    list-style: none;
-    
+ul li {
+  text-decoration: none;
+  list-style: none;
 }
-li a{
-    color: #000;
-    text-decoration: none;
+li a {
+  color: #000;
+  text-decoration: none;
 }
-li:hover{
-    font-size: 18px;
-    transition: 0.3s;
+li:hover {
+  font-size: 18px;
+  transition: 0.3s;
 }
-.mary{
-    font-weight: bolder;
-    font-size: 30px;
-    cursor: pointer;
+.mary {
+  font-weight: bolder;
+  font-size: 30px;
+  cursor: pointer;
 }
-.mary span{
-    color: #fd6e0a;
+.mary span {
+  color: #fd6e0a;
 }
-.btn-primary{
-    color: #fff;
-    background-color:#fd6e0a;
-    border: none;
-    border-radius: 5px;
-    padding: 12px 20px;
-
+.btn-primary {
+  color: #fff;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
 }
-.btn-secondary{
-    color: #fd6e0a;
-    border: 1px solid #fd6e0a;
-    border-radius: 5px;
-    padding: 11px 20px;
-    background: transparent;
-    
+.btn-secondary {
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  padding: 11px 20px;
+  background: transparent;
 }
-.btn{
-    cursor: pointer;
+.btn {
+  cursor: pointer;
 }
-.btn:hover{
-    background-color: #f18c45;
-    transition: 0.5s;
+.btn:hover {
+  background-color: #f18c45;
+  transition: 0.5s;
 }
 
-.header-content{
-    display: flex;
-    justify-content:space-between;
-    background-image:url('../img/header_bg.png');
-    background-repeat: no-repeat;
-    background-size: contain 0;
-    background-position: bottom right;
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../img/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain 0;
+  background-position: bottom right;
 }
-.header-content img{
-    padding-right: 50px;
+.header-content img {
+  padding-right: 50px;
 }
-.header-text{
-    text-align: justify;
-    padding-left: 200px;
-    width: 700px;
-    padding-top: 180px;
+.header-text {
+  text-align: justify;
+  padding-left: 200px;
+  width: 700px;
+  padding-top: 180px;
 }
-.header-text h3, .header-text h1, .header-text p{
-    padding-bottom: 20px;
+.header-description {
+  color: #757575;
 }
-.header-text h3{
-    font-size: 25px;
+.header-text h3,
+.header-text h1,
+.header-text p {
+  padding-bottom: 20px;
 }
-.header-text h1{
-    font-size: 45px;
-    font-weight: bolder;
+.header-text h3 {
+  font-size: 25px;
 }
-.header-text p{
-    line-height: 25px;
+.header-text h1 {
+  font-size: 45px;
+  font-weight: bolder;
 }
-.btn-secondary{
-    margin-left: 20px;
+.header-text p {
+  line-height: 25px;
+}
+.btn-secondary {
+  margin-left: 20px;
 }
 
 /*   Header Section End */
 
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-
 
 /* About Section Start */
-.about-section{
-    margin-top: 130px;
-    background: #fff8f3;
-    border-radius: 10px;
-    padding: 130px 150px;
-    text-align: center;
+.about-section {
+  margin-top: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
 }
-.section-title{
-    text-align: center;
-    margin-bottom: 30px;
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: larger;
 }
-.section-descriptio{
-    background: #757575;
-    font-size: 18px;
+.section-descriptio {
+  color: #757575;
+  font-size: 18px;
 }
-.about-info th{
-    font-weight: lighter;
-    padding-top: 30px;
+.about-info th {
+  font-weight: lighter;
+  padding-top: 30px;
+  color: #757575;
 }
-.about-info td{
-    font-weight: bolder;
+.about-info td {
+  font-weight: bolder;
 }
-.about-info th, .about-info td{
-    padding-left: 50px;    
+.about-info th,
+.about-info td {
+  padding-left: 50px;
 }
 /* About Section style End */
 
-
 /* What i do section start */
-.what-i-do{
-    margin-top: 130px;
+.what-i-do {
+  margin-top: 130px;
 }
-.skills-container{
-    display: flex;
-    gap: 24px;
+.skills-container {
+  display: flex;
+  gap: 24px;
 }
-.skill{
-    background: #fff;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
-    padding: 30px;
+.skill {
+  background: #fff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
 }
-.skill-title{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 20px;
+.skill-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
-.skill-description{
-    color: #757575;
+
+.skill-description,
+.what-i-do-description {
+  color: #757575;
 }
-.what-i-do-description{
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 100px;
+.what-i-do-description {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 /* what i do section end */
+
+/* Resume Section start */
+.resume-container {
+  display: flex;
+  gap: 80px;
+}
+.res-title {
+  margin: 110px 0;
+}
+.resume-title {
+  margin-bottom: 15px;
+}
+.resume-sub-title,
+.resume-description {
+  margin-bottom: 25px;
+  color: #757575;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
